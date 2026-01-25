@@ -4,7 +4,8 @@
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
 [![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Classification-green.svg)]()
-[![Model](https://img.shields.io/badge/Model-XGBoost-orange.svg)]()
+[![Model](https://img.shields.io/badge/Model-Gradient%20Boosting-3498db.svg)]()
+[![Library](https://img.shields.io/badge/Library-Scikit--Learn-F7931E.svg)](https://scikit-learn.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Status](https://img.shields.io/badge/Project-Complete-brightgreen.svg)]()
 
@@ -84,6 +85,19 @@ The following technologies were used to build, evaluate, and deploy this project
 - **Model Deployment:** Streamlit (Frontend), Streamlit Cloud (Hosting)
 - **Version Control:** Git & GitHub
 - **Environment Management:** Virtualenv / Pip
+
+---
+
+## 📂 Project Structure
+```text
+├── .streamlit/          # Configuration for Dark Theme
+├── app.py               # Main Streamlit application
+├── churn_model.pkl      # Trained Gradient Boosting model
+├── scaler.pkl           # Fitted StandardScaler object
+├── features.pkl         # List of training features
+├── requirements.txt     # Dependency list
+└── telco_churn.ipynb    # Full EDA & Model Training Notebook
+```
 
 ---
 
