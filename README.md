@@ -98,10 +98,11 @@ A quick overview of the directory structure to help you navigate the project:
 
 ```text
 ├── .streamlit/          # Streamlit configuration (Theme/UI)
+├── assets/              # Images and GIF for README (If applicable)
 ├── app.py               # Main application script (Streamlit UI & Logic)
-├── churn_model.pkl      # Saved Gradient Boosting model
+├── churn_model.pkl      # Trained Gradient Boosting model
 ├── scaler.pkl           # Saved StandardScaler for feature scaling
-├── features.pkl         # List of feature names for consistency
+├── features.pkl         # Serialized list of feature names for consistency
 ├── requirements.txt     # List of Python dependencies
 ├── telco_churn.ipynb    # Jupyter Notebook (EDA & Model Development)
 ├── LICENSE              # MIT License file
