@@ -148,8 +148,6 @@ This project is licensed under the **MIT License**.
 
 ---
 
----
-
 ## 📬 Contact & Connect
 
 If you have any questions, feedback, or would like to discuss potential collaborations, feel free to reach out!
@@ -160,7 +158,6 @@ If you have any questions, feedback, or would like to discuss potential collabor
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alamin-refat)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alaminrefat2017@gmail.com)
 
-Feel free to connect for feedback, collaboration, or discussion.
 ---
 > **"Turning data into actionable insights, one model at a time."**
 
