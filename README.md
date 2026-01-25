@@ -147,3 +147,13 @@ This project is licensed under the **MIT License**.
 *For more details, please check the [LICENSE](LICENSE) file in this repository.*
 
 ---
+
+## 📬 Contact
+
+**Author:** Alamin Refat  
+**GitHub:** https://github.com/Alamin-refat  
+**LinkedIn:** [www.linkedin.com/in/alaminrefat ](https://www.linkedin.com/in/alaminrefat/)
+**Email:** alaminrefat2017@gmail.com  
+
+
+Feel free to connect for feedback, collaboration, or discussion.
