@@ -18,3 +18,9 @@ The goal is to **maximize recall for churn customers**, ensuring that potential 
 
 ---
 
+## 🚀 Live Demo
+
+- **Streamlit Cloud:** https://customer-churn-prediction-agehkjkylrehcwxvpncblh.streamlit.app/
+- **Hugging Face Spaces:** 
+
+---
