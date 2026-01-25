@@ -89,14 +89,19 @@ The following technologies were used to build, evaluate, and deploy this project
 ---
 
 ## 📂 Project Structure
+
+A quick overview of the directory structure to help you navigate the project:
+
 ```text
-├── .streamlit/          # Configuration for Dark Theme
-├── app.py               # Main Streamlit application
-├── churn_model.pkl      # Trained Gradient Boosting model
-├── scaler.pkl           # Fitted StandardScaler object
-├── features.pkl         # List of training features
-├── requirements.txt     # Dependency list
-└── telco_churn.ipynb    # Full EDA & Model Training Notebook
+├── .streamlit/          # Streamlit configuration (Theme/UI)
+├── app.py               # Main application script (Streamlit UI & Logic)
+├── churn_model.pkl      # Saved Gradient Boosting model
+├── scaler.pkl           # Saved StandardScaler for feature scaling
+├── features.pkl         # List of feature names for consistency
+├── requirements.txt     # List of Python dependencies
+├── telco_churn.ipynb    # Jupyter Notebook (EDA & Model Development)
+├── LICENSE              # MIT License file
+└── README.md            # Project documentation
 ```
 
 ---
