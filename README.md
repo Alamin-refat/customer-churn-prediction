@@ -51,3 +51,99 @@ The model focuses on **Recall** to ensure business stakeholders don't miss at-ri
 | **ROC-AUC Score** | 0.83 |
 
 ---
+
+## 🧪 Model Comparison & Selection
+Multiple models were trained and evaluated, including:
+- Logistic Regression
+- Random Forest
+- Gradient Boosting
+- XGBoost
+
+Gradient Boosting was selected as the final model due to:
+- Superior recall for churn customers
+- Strong ROC–AUC performance
+- Better handling of non-linear relationships
+
+---
+
+## 🔍 Feature Importance
+Understanding which factors drive customer churn is crucial for business strategy. Based on our model, the top 3 drivers are:
+1. **Contract Type:** Month-to-month contracts have the highest churn risk.
+2. **Tenure:** Newer customers are more likely to leave than long-term ones.
+3. **Monthly Charges:** Higher bills correlate with increased churn probability.
+
+---
+
+## 🛠️ Tech Stack & Tools
+The following technologies were used to build, evaluate, and deploy this project:
+
+- **Programming Language:** Python 3.10+
+- **Data Manipulation:** Pandas, NumPy
+- **Machine Learning:** Scikit-learn, XGBoost, Gradient Boosting
+- **Class Imbalance Handling:** SMOTE (imbalanced-learn)
+- **Model Deployment:** Streamlit (Frontend), Streamlit Cloud (Hosting)
+- **Version Control:** Git & GitHub
+- **Environment Management:** Virtualenv / Pip
+
+---
+
+## 💻 Installation & Usage
+
+Follow these steps to set up the project on your local machine:
+
+### 1. Clone the Repository
+Open your terminal or command prompt and run:
+```bash
+git clone [https://github.com/Alamin-refat/customer-churn-prediction.git](https://github.com/Alamin-refat/customer-churn-prediction.git)
+cd Customer-Churn-Prediction
+```
+### 2. Create a Virtual Environment (Recommended)
+This keeps the project dependencies isolated and prevents conflicts:
+```bash
+# For Windows
+python -m venv venv
+venv\Scripts\activate
+
+# For Mac/Linux
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 3. Install Required Libraries
+Install all necessary dependencies listed in the requirements file to ensure the environment is ready:
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Streamlit Dashboard
+Launch the web application locally to interact with the churn prediction model:
+```bash
+streamlit run app.py
+```
+
+---
+
+## 🗺️ Future Roadmap
+
+I plan to further enhance this project by implementing the following features:
+
+- [ ] **Advanced Model Implementation:** Experiment with Deep Learning (ANN) and LightGBM to compare with current results.
+- [ ] **Model Explainability:** Integrate **SHAP (SHapley Additive exPlanations)** values to show exactly why a specific customer is flagged as high risk.
+- [ ] **Automated Retraining:** Build a pipeline to retrain the model automatically as new customer data becomes available.
+- [ ] **Bulk Prediction:** Add a feature to upload a `.csv` file and get churn predictions for thousands of customers at once.
+- [ ] **Customer Segmentation:** Use Clustering (K-Means) to group churners into different categories for personalized marketing.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+### What does this mean?
+- **Personal & Commercial Use:** You can use this project for your own portfolio or business.
+- **Modification:** You are free to modify the code and add new features.
+- **Distribution:** You can share this project with anyone.
+
+*For more details, please check the [LICENSE](LICENSE) file in this repository.*
+
+---
