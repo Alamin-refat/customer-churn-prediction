@@ -38,6 +38,23 @@ The goal is to **maximize recall for churn customers**, ensuring that potential 
 
 ---
 
+## 📖 Data Dictionary
+
+Understanding the features used in this project:
+
+| Variable | Description |
+| :--- | :--- |
+| **Gender** | Whether the customer is a male or a female |
+| **SeniorCitizen** | Whether the customer is a senior citizen or not (1, 0) |
+| **Tenure** | Number of months the customer has stayed with the company |
+| **MonthlyCharges** | The amount charged to the customer monthly |
+| **TotalCharges** | The total amount charged to the customer |
+| **Contract** | The contract term of the customer (Month-to-month, One year, Two year) |
+| **PaperlessBilling** | Whether the customer has paperless billing or not (Yes, No) |
+| **Churn** | Target Variable: Whether the customer churned or not (Yes, No) |
+
+---
+
 ## 🧠 Technical Workflow
 1. **Data Preprocessing:** Handled missing values, encoded categorical variables (One-Hot), and scaled numerical features.
 2. **Imbalance Handling:** Utilized **SMOTE** (Synthetic Minority Over-sampling Technique) to balance the churn vs. non-churn classes.
@@ -98,11 +115,12 @@ A quick overview of the directory structure to help you navigate the project:
 
 ```text
 ├── .streamlit/          # Streamlit configuration (Theme/UI)
-├── assets/              # Images and GIF for README (If applicable)
+├── assets/              # Static files (GIFs, Screenshots for README)
+├── data/                # Dataset folder (CSV files)
 ├── app.py               # Main application script (Streamlit UI & Logic)
 ├── churn_model.pkl      # Trained Gradient Boosting model
 ├── scaler.pkl           # Saved StandardScaler for feature scaling
-├── features.pkl         # Serialized list of feature names for consistency
+├── features.pkl         # Serialized list of feature names
 ├── requirements.txt     # List of Python dependencies
 ├── telco_churn.ipynb    # Jupyter Notebook (EDA & Model Development)
 ├── LICENSE              # MIT License file
