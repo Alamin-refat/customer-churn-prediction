@@ -148,12 +148,20 @@ This project is licensed under the **MIT License**.
 
 ---
 
-## 📬 Contact
+---
 
-**Author:** Alamin Refat  
-**GitHub:** https://github.com/Alamin-refat  
-**LinkedIn:** [www.linkedin.com/in/alaminrefat ](https://www.linkedin.com/in/alaminrefat/)
-**Email:** alaminrefat2017@gmail.com  
+## 📬 Contact & Connect
 
+If you have any questions, feedback, or would like to discuss potential collaborations, feel free to reach out!
+
+**Alamin Refat** *Aspiring Data Scientist & Machine Learning Enthusiast*
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alaminrefat/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alamin-refat)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alaminrefat2017@gmail.com)
 
 Feel free to connect for feedback, collaboration, or discussion.
+---
+> **"Turning data into actionable insights, one model at a time."**
+
+
